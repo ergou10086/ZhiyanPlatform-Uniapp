@@ -1,0 +1,12 @@
+{
+	"passwordSecret":[{
+		"type":"hmac-sha256",
+		"version":1
+
+	}],
+	"passwordStrength": "weak",
+	"tokenSecret":"test123456",
+	"tokenExpiresIn":604800,
+	"tokenEnpiresThreshold":259200,
+	"useRegisterDefaultRole":["user"]
+}

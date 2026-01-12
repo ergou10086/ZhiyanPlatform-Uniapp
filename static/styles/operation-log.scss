@@ -1,0 +1,181 @@
+page {
+	height: 100%;
+	background-color: #f5f5f5;
+}
+
+.log-page {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	background-color: #f5f5f5;
+}
+
+.top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #ffffff;
+	padding: 0 16px;
+	box-sizing: border-box;
+	z-index: 100;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.page-title {
+	font-size: 18px;
+	font-weight: 600;
+	color: #333;
+	line-height: 44px;
+}
+
+.content {
+	flex: 1;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 12px 16px 0;
+}
+
+.toolbar {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 12px;
+}
+
+.filters {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	gap: 10px;
+}
+
+.search-box {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	background: #f6f9ff;
+	border-radius: 10px;
+	padding: 10px 12px;
+}
+
+.search-input {
+	flex: 1;
+	font-size: 14px;
+	color: #999;
+}
+
+.filter-btn {
+	height: 36px;
+	padding: 0 12px;
+	border: 1px solid #e5e5e5;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 14px;
+	color: #666;
+	background: #fff;
+}
+
+.card-list {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.log-card {
+	background-color: #ffffff;
+	border-radius: 14px;
+	padding: 16px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.log-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+}
+
+.log-title {
+	font-size: 16px;
+	color: #333;
+	flex: 1;
+}
+
+.log-tag {
+	padding: 6px 10px;
+	border-radius: 8px;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.tag-upload {
+	background-color: #84a9ff;
+}
+
+.tag-create {
+	background-color: #5ac97d;
+}
+
+.tag-delete {
+	background-color: #f18c8c;
+}
+
+.tag-export {
+	background-color: #b099ff;
+}
+
+.tag-edit {
+	background-color: #f3c85a;
+	color: #8a6400;
+}
+
+.tag-default {
+	background-color: #999;
+}
+
+.loading-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0;
+}
+
+.loading-text {
+	font-size: 14px;
+	color: #999;
+}
+
+.empty-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 60px 0;
+}
+
+.empty-text {
+	font-size: 14px;
+	color: #999;
+}
+
+.log-email {
+	display: block;
+	margin-top: 8px;
+	font-size: 13px;
+	color: #666;
+}
+
+.log-meta {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+	color: #999;
+	gap: 12px;
+}
+
+.bottom-space {
+	height: 80px;
+}

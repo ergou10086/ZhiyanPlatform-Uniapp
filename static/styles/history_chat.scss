@@ -1,0 +1,141 @@
+.history-mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 200; /* 提高到导航栏和输入栏之上 */
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.history-mask-show {
+  background: rgba(0, 0, 0, 0.45);
+  opacity: 1;
+}
+
+.history-panel {
+  width: 70%;
+  height: 100%;
+  background-color: #ffffff;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 32rpx;
+  border-bottom-right-radius: 32rpx;
+  padding: 80rpx 32rpx 40rpx;
+  box-sizing: border-box;
+  box-shadow: 8rpx 0 24rpx rgba(15, 23, 42, 0.12);
+  transform: translateX(-100%);
+  transition: transform 0.25s ease-out;
+}
+
+.history-panel-show {
+  transform: translateX(0);
+}
+
+.history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24rpx;
+}
+
+.history-title {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #111827;
+}
+
+.history-close {
+  font-size: 36rpx;
+  color: #9ca3af;
+}
+
+.history-list-wrapper {
+  max-height: 500rpx;
+}
+
+.history-item {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  padding: 24rpx 0;
+  border-bottom-width: 1rpx;
+  border-bottom-style: solid;
+  border-bottom-color: #f3f4f6;
+  position: relative;
+}
+
+.history-item:active {
+  background-color: #f9fafb;
+}
+
+.history-item-icon {
+  width: 60rpx;
+  text-align: center;
+  font-size: 32rpx;
+  margin-right: 16rpx;
+}
+
+.history-item-info {
+  flex: 1;
+}
+
+.history-item-title {
+  font-size: 28rpx;
+  color: #111827;
+  margin-bottom: 8rpx;
+  font-weight: 500;
+}
+
+.history-item-meta {
+  font-size: 24rpx;
+  color: #9ca3af;
+}
+
+.history-item-arrow {
+  font-size: 36rpx;
+  color: #d1d5db;
+  font-weight: 300;
+}
+
+.history-empty {
+  padding: 40rpx 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.history-empty-text {
+  font-size: 26rpx;
+  color: #9ca3af;
+}
+
+.history-footer {
+  margin-top: 32rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.history-btn {
+  flex: 1;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  font-size: 28rpx;
+}
+
+.history-btn-danger {
+  background-color: #fee2e2;
+  color: #ef4444;
+}
+
+.history-btn-danger.disabled {
+  background-color: #f3f4f6;
+  color: #9ca3af;
+}

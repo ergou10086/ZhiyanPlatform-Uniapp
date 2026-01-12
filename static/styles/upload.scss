@@ -1,0 +1,247 @@
+.upload-container {
+  padding: 20rpx;
+}
+
+/* 文件列表样式 */
+.file-list {
+  margin-bottom: 30rpx;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  margin-bottom: 15rpx;
+  background: #f8f9fa;
+  border-radius: 10rpx;
+  border-left: 6rpx solid #ddd;
+}
+
+.file-item.uploading {
+  border-left-color: #1890ff;
+  background: #f0f7ff;
+}
+
+.file-item.success {
+  border-left-color: #52c41a;
+  background: #f6ffed;
+}
+
+.file-item.error {
+  border-left-color: #ff4d4f;
+  background: #fff2f0;
+}
+
+.file-info {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.file-icon {
+  width: 80rpx;
+  height: 80rpx;
+  background: #e6f7ff;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20rpx;
+  font-size: 40rpx;
+}
+
+.file-details {
+  flex: 1;
+}
+
+.file-name {
+  display: block;
+  font-size: 28rpx;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 8rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 400rpx;
+}
+
+.file-size {
+  font-size: 24rpx;
+  color: #666;
+  display: block;
+  margin-bottom: 8rpx;
+}
+
+/* 上传进度 */
+.upload-progress {
+  display: flex;
+  align-items: center;
+  margin-top: 10rpx;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 6rpx;
+  background: #e8e8e8;
+  border-radius: 3rpx;
+  overflow: hidden;
+  margin-right: 15rpx;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #1890ff;
+  border-radius: 3rpx;
+  transition: width 0.3s;
+}
+
+.progress-text {
+  font-size: 22rpx;
+  color: #1890ff;
+  min-width: 60rpx;
+}
+
+/* 状态提示 */
+.status-success {
+  color: #52c41a;
+  font-size: 24rpx;
+}
+
+.status-error {
+  color: #ff4d4f;
+  font-size: 24rpx;
+}
+
+.status-pending {
+  color: #faad14;
+  font-size: 24rpx;
+}
+
+/* 操作按钮 */
+.file-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10rpx;
+}
+
+.action-btn {
+  padding: 10rpx 20rpx;
+  border-radius: 6rpx;
+  font-size: 24rpx;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s;
+}
+
+.action-btn.retry {
+  background: #1890ff;
+  color: white;
+  border: 1rpx solid #1890ff;
+}
+
+.action-btn.retry:active {
+  background: #096dd9;
+}
+
+.action-btn.delete {
+  background: white;
+  color: #ff4d4f;
+  border: 1rpx solid #ff4d4f;
+}
+
+.action-btn.delete:active {
+  background: #ff4d4f;
+  color: white;
+}
+
+/* 选择文件按钮 */
+.upload-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60rpx 30rpx;
+  border: 2rpx dashed #d9d9d9;
+  border-radius: 12rpx;
+  background: #fafafa;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.upload-btn:active {
+  background: #f0f0f0;
+  border-color: #1890ff;
+}
+
+.upload-btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-icon {
+  font-size: 64rpx;
+  color: #1890ff;
+  margin-bottom: 15rpx;
+}
+
+.btn-text {
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 8rpx;
+  font-weight: 500;
+}
+
+.btn-subtext {
+  font-size: 24rpx;
+  color: #999;
+}
+
+/* 上传按钮 */
+.upload-action {
+  margin-top: 40rpx;
+}
+
+.submit-btn {
+  width: 100%;
+  background: #1890ff;
+  color: white;
+  border: none;
+  border-radius: 10rpx;
+  padding: 25rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+
+.submit-btn:disabled {
+  background: #d9d9d9;
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* 选择区域内的上传与清空按钮 */
+.upload-controls {
+  display: flex;
+  gap: 20rpx;
+  margin-top: 20rpx;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.continue-btn {
+  flex: 1;
+  margin-right: 10rpx;
+  background: #1890ff;
+  color: #fff;
+}
+
+.clear-btn {
+  flex: 1;
+  margin-left: 10rpx;
+  background: #fff;
+  color: #ff4d4f;
+  border: 1rpx solid #ff4d4f;
+}

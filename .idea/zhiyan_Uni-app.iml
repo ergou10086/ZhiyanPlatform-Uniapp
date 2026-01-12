@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/unpackage" />
+      <excludeFolder url="file://$MODULE_DIR$/unpackage/dist/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/unpackage/dist/dev/.automator" />
+      <excludeFolder url="file://$MODULE_DIR$/unpackage/dist/dev/.nvue" />
+      <excludeFolder url="file://$MODULE_DIR$/unpackage/dist/dev/.sourcemap" />
+      <excludeFolder url="file://$MODULE_DIR$/unpackage/dist/dev/.tsc" />
+      <excludeFolder url="file://$MODULE_DIR$/unpackage/dist/dev/.uvue" />
+      <excludeFolder url="file://$MODULE_DIR$/unpackage/dist/dev/app-plus/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/unpackage/dist/dev/app-plus/pages/activity" />
+      <excludeFolder url="file://$MODULE_DIR$/unpackage/dist/dev/app-plus/pages/home" />
+      <excludeFolder url="file://$MODULE_DIR$/unpackage/dist/dev/app-plus/static" />
+      <excludeFolder url="file://$MODULE_DIR$/unpackage/dist/dev/app-plus/uni_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/unpackage/dist/dev/cache" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

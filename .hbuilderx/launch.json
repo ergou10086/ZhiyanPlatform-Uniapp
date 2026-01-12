@@ -1,0 +1,25 @@
+{
+    "version" : "1.0",
+    "configurations" : [
+        {
+            "customPlaygroundType" : "device",
+            "localRepoPath" : "D:/workplace/spring/ZhiaYan/zhiyan-backend/zhiyan_Uni-app",
+            "packageName" : "uni.app.UNI43C3508",
+            "playground" : "custom",
+            "type" : "uni-app:app-android"
+        },
+        {
+            "app" : {
+                "launchtype" : "remote"
+            },
+            "default" : {
+                "launchtype" : "local"
+            },
+            "h5" : {
+                "launchtype" : "local"
+            },
+            "provider" : "alipay",
+            "type" : "uniCloud"
+        }
+    ]
+}

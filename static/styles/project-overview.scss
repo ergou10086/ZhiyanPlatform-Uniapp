@@ -1,0 +1,117 @@
+page {
+	height: 100%;
+	background-color: #f5f5f5;
+}
+
+.overview-page {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	background-color: #f5f5f5;
+}
+
+.top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #ffffff;
+	padding: 0 16px;
+	box-sizing: border-box;
+	z-index: 100;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.page-title {
+	font-size: 18px;
+	font-weight: 600;
+	color: #333;
+	line-height: 44px;
+}
+
+.content {
+	flex: 1;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 12px 16px 0;
+}
+
+.card-list {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.project-card {
+	background-color: #ffffff;
+	border-radius: 14px;
+	padding: 16px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.project-title {
+	font-size: 15px;
+	color: #333;
+	flex: 1;
+	margin-right: 12px;
+}
+
+.status-badge {
+	min-width: 70px;
+	text-align: center;
+	padding: 6px 10px;
+	border-radius: 999px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.status-ongoing {
+	background-color: #eaf2ff;
+	color: #5b9bff;
+}
+
+.status-archived {
+	background-color: #f1e8ff;
+	color: #b07bff;
+}
+
+.status-planning {
+	background-color: #fffbe6;
+	color: #faad14;
+}
+
+.status-completed {
+	background-color: #f6ffed;
+	color: #52c41a;
+}
+
+.loading-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0;
+}
+
+.loading-text {
+	font-size: 14px;
+	color: #999;
+}
+
+.empty-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 60px 0;
+}
+
+.empty-text {
+	font-size: 14px;
+	color: #999;
+}
+
+.bottom-space {
+	height: 80px;
+}
